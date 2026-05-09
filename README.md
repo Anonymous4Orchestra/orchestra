@@ -19,7 +19,7 @@ $ git submodule update --init --recursive
 
 Run the demo:
 ```
-$ bash scripts/run_demo.sh freetype2 --default -seed_strategy=6 -fuzzer_strategy=6 -orchestra_dict=1
+$ bash script/run_demo.sh freetype2 --default -seed_strategy=6 -fuzzer_strategy=6 -orchestra_dict=1
 ```
 
 This script will:
