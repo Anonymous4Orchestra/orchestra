@@ -39,7 +39,7 @@ We provide Dockerfiles to build the test environment.
 $ bash script/build_images.sh
 $ docker run -it --privileged hfc-freetype2 bash
 ## Inside the container
-$ cd hfc && bash script/run_demo.sh freetype2 --default -seed_strategy=6 -fuzzer_strategy=6 -orchestra_dict=1
+$ cd ~/orchestra && bash script/run_demo.sh freetype2 --default -seed_strategy=6 -fuzzer_strategy=6 -orchestra_dict=1
 ```
 
 This may take a long while to build 21 targets. You can build them manually by the following command:
